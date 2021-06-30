@@ -1,0 +1,27 @@
+header{
+    font-weight: bold;
+    font-size: 50px;
+    text-align: center;
+    color: white;
+}
+h3{
+    text-align: center;
+    color:darkorange;
+    letter-spacing: 0.5em;
+    font-style: italic;
+}
+h2{
+    color: black;
+    text-align: right;
+    background-color: grey;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+td{
+    color: white;
+    list-style-type: none;
+}
+.class1{
+width: 200em;
+height: 100em;
+}
