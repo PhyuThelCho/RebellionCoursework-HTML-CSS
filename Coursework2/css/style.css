@@ -1,0 +1,71 @@
+header{
+    margin-left: 400px;
+}
+.banner{
+    opacity: 1.5;
+}
+h3{
+    text-align: center;
+    text-shadow: 5px 5px 5px grey;
+    font-size: 25px;
+    color:saddlebrown;
+    letter-spacing: 0.5em;
+    font-style: italic;
+    position: relative;
+}
+h2{
+    color: black;
+    text-align: right;
+    background-color: eabedd;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+td{
+    color: black;
+}
+.class1{
+width: 200em;
+height: 100em;
+}
+.nav1 li{
+    list-style-type: none;
+    display: inline-block;
+    padding: 20px;
+    
+}
+.nav1 li:last-child{
+    border-right:  none;
+}
+.nav1{
+    text-align: center;
+    background-color: sienna;
+    
+}
+.nav1 ul a{
+    text-decoration: none;
+    color: black;
+    
+}
+.nav1 ul a:hover{
+    color: white;
+}
+
+dt{
+    font-weight: bold;
+    font-size: 30px;
+    color: darkorange;
+}
+dl{
+    color: black;
+}
+input[type="button"]{
+    background-color: darkorange;
+    width: 150px;
+    height: 40px;
+}
+.para1{
+    color: darkorange;
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+}
