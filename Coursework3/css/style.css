@@ -1,0 +1,172 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400;700&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size:  10px;
+    font-family: 'Montserrat', sans-serif;
+}
+.my-container{
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+/* My Section */
+#mine{
+    min-width: 80vh;
+    width: 100%;
+    padding-top: 50px;
+    justify-content: center;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#mine .my-info{
+    width: 100%;
+    text-align: center;
+}
+#mine .my-info .my-info-heading{
+    font-size: 5rem;
+    font-weight: 500;
+    color: white;
+}
+#mine .my-info .my-info-subheading{
+    font-size: 1.6rem;
+    text-transform: uppercase;
+    letter-spacing: 0.5rem;
+    color: whitesmoke;
+}
+#mine .my-info .my-info-button{
+    margin-top :30px;
+    padding: 2rem 5rem;
+    display: inline-block;
+    font-size : 1.6rem;
+    text-transform: uppercase;
+    color: white;
+    text-decoration: none; 
+    letter-spacing: 0.6rem;
+    background-color: rgba(85, 85, 85, 0.534);
+
+}
+#mine .my-img{
+    height: auto;
+    width: 80%;
+    margin-bottom: 3rem;
+}
+#mine .my-img img{
+    height: 100%;
+    width: 100%;
+}
+
+/* For Section */
+#about{
+    width: 100%;
+    min-width: 50vh;
+    padding: 10rem 5rem;
+}
+#about .about-info{
+    text-align: center;
+}
+#about .about-info .about-info-heading{
+    font-size: 4rem;
+    text-transform: uppercase;
+    letter-spacing: 0.3rem;
+    color: black;
+}
+#about .about-info .about-info-para{
+    font-size: 1.3rem;
+    line-height: 2rem;
+    margin-top: 10px;
+}
+#about .about-info .about-info-button{
+    padding: 1.6rem 2.6rem;
+    display: inline-block;
+    background-color: rgba(0, 0, 0, 0.548);
+    color: whitesmoke;
+    text-decoration: none;
+    font-size: 1.6rem;
+    text-transform: uppercase;
+    letter-spacing: 0.2rem;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+#about .about-info .about-img-wrapper{
+    margin-top: 30px;
+    height: auto;
+    max-width: 400px;
+    position: relative;
+    display: inline-block;
+}
+#about .about-info .about-img-wrapper img{
+    width: 100%;
+    height: 100%;
+}
+#about .about-info .about-img-wrapper::after{
+    position: absolute;
+    content: '';
+    right: 00.5rem;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 70%;
+    height: 120%;
+    background-color: rgba(34, 33, 33, 0.158);
+}
+footer{
+    background-color: lightgrey;
+    margin: 5px;
+    padding: 3px;
+}
+footer ul li{
+    text-align: center;
+    font-size: 15px;
+    line-height: 30px;
+
+}
+
+/* Media query  for desktop and tablet */
+@media only screen and (min-width:768px){
+    #mine{
+        height: 100vh;
+        padding-left: 10%;
+        justify-content: center;
+        align-items: center;
+    }
+    #mine .my-info{
+        max-width: 30%;
+        text-align: left;
+    }
+    #mine .my-info .my-info-subheading{
+        font-size: 1.3rem;
+        letter-spacing: 0.5rem;
+    
+    }
+    #mine .my-img{
+        min-width: 400px;
+        max-height: 1000px;
+    }
+    #about{
+        width: 80%;
+        margin: 0 auto;
+    }
+    #about .about-info{
+        width: 50%;
+        text-align: left;
+        padding-right: 17rem;
+    }
+}
+
+/* Media query for desktop*/
+@media only screen and (min-width:1200px){
+    #mine .my-info .my-info-heading{
+        font-size: 6rem;
+    }
+    #mine .my-info .my-info-subheading{
+        letter-spacing: 0.5rem;
+
+}
+}
